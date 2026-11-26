@@ -1,0 +1,84 @@
+/* ==========================================================================
+   1. TOKENS: the only place where raw values live.
+   Everything else references these variables.
+   ========================================================================== */
+@font-face { font-family: "Bricolage Grotesque"; src: url("../fonts/BricolageGrotesque.woff2") format("woff2"); font-weight: 400 800; font-display: swap; }
+@font-face { font-family: "Inter"; src: url("../fonts/Inter.woff2") format("woff2"); font-weight: 400 700; font-display: swap; }
+@font-face { font-family: "JetBrains Mono"; src: url("../fonts/JetBrainsMono.woff2") format("woff2"); font-weight: 400 600; font-display: swap; }
+
+:root {
+  /* typography */
+  --font-display: "Bricolage Grotesque", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "Cascadia Code", Consolas, monospace;
+
+  --fs-2xs: 0.6875rem;
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: clamp(1.2rem, 1.1rem + 0.4vw, 1.4rem);
+  --fs-2xl: clamp(1.5rem, 1.2rem + 1.2vw, 2.1rem);
+  --fs-3xl: clamp(2rem, 1.4rem + 2.6vw, 3.4rem);
+  --fs-hero: clamp(2.3rem, 1.2rem + 3.4vw, 4.4rem);
+
+  --lh-tight: 1.04;
+  --lh-snug: 1.25;
+  --lh-body: 1.65;
+
+  /* spacing (4px grid) */
+  --s-1: 0.25rem; --s-2: 0.5rem; --s-3: 0.75rem; --s-4: 1rem; --s-5: 1.5rem;
+  --s-6: 2rem; --s-7: 3rem; --s-8: 4rem; --s-9: 6rem; --s-10: 8rem;
+
+  --container: 1200px;
+  --gutter: clamp(1.1rem, 0.6rem + 2.5vw, 2.5rem);
+
+  /* shape */
+  --r-xs: 6px; --r-sm: 10px; --r-md: 16px; --r-lg: 24px; --r-pill: 999px;
+
+  /* motion */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --t-fast: 160ms; --t-med: 320ms; --t-slow: 700ms;
+
+  /* colour (dark is the signature theme) */
+  --bg: #0a0b0f;
+  --bg-elev: #111319;
+  --bg-elev-2: #181b23;
+  --bg-glass: rgba(10, 11, 15, 0.72);
+  --line: #222632;
+  --line-strong: #343a4a;
+  --text: #eef0f5;
+  --text-2: #a9afbd;
+  --text-3: #707689;
+  --accent: #c8ff4d;
+  --accent-text: #c8ff4d;
+  --accent-ink: #0a0b0f;
+  --accent-soft: rgba(200, 255, 77, 0.1);
+  --accent-line: rgba(200, 255, 77, 0.35);
+  --ok: #3ddc97; --warn: #ffc93d; --danger: #ff6b6b;
+  --shadow-lg: 0 30px 80px -30px rgba(0, 0, 0, 0.75);
+  --shadow-md: 0 12px 30px -14px rgba(0, 0, 0, 0.6);
+  --grid-dot: rgba(255, 255, 255, 0.045);
+  color-scheme: dark;
+}
+
+[data-theme="light"] {
+  --bg: #f4f3ee;
+  --bg-elev: #ffffff;
+  --bg-elev-2: #ebe9e2;
+  --bg-glass: rgba(244, 243, 238, 0.8);
+  --line: #dcd9cf;
+  --line-strong: #c4c0b4;
+  --text: #0e1015;
+  --text-2: #4a4f5c;
+  --text-3: #7b8090;
+  --accent: #c8ff4d;
+  --accent-text: #3f6a0a;
+  --accent-ink: #0e1015;
+  --accent-soft: rgba(110, 160, 20, 0.12);
+  --accent-line: rgba(80, 130, 10, 0.4);
+  --shadow-lg: 0 30px 70px -35px rgba(20, 20, 10, 0.35);
+  --shadow-md: 0 12px 30px -16px rgba(20, 20, 10, 0.28);
+  --grid-dot: rgba(0, 0, 0, 0.06);
+  color-scheme: light;
+}

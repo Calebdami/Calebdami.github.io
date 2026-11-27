@@ -1726,10 +1726,10 @@ window.PORTFOLIO = {
    },
    "images": [
     {
-     "src": "assets/img/projects/geogenius/desktop.webp",
+     "src": "assets/img/projects/geogenius/explorer.webp",
      "alt": {
-      "fr": "Accueil GeoGenius",
-      "en": "GeoGenius home page"
+      "fr": "Explorateur GeoGenius : fiches pays avec drapeau, capitale, population, langues et monnaie, filtrables par région, langue et population",
+      "en": "GeoGenius explorer: country cards with flag, capital, population, languages and currency, filterable by region, language and population"
      }
     },
     {

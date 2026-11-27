@@ -2236,7 +2236,15 @@ window.PORTFOLIO = {
     "personal"
    ],
    "links": {},
-   "images": [],
+   "images": [
+    {
+     "src": "assets/img/projects/vitropro/cover.webp",
+     "alt": {
+      "fr": "Galerie de réalisations VitroPro, avec le menu « Nos services » ouvert",
+      "en": "VitroPro project gallery, with the Services menu open"
+     }
+    }
+   ],
    "glyph": "Vitro"
   },
   {

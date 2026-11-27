@@ -1407,7 +1407,15 @@ window.PORTFOLIO = {
     }
    ],
    "links": {},
-   "images": [],
+   "images": [
+    {
+     "src": "assets/img/projects/meded/cover.webp",
+     "alt": {
+      "fr": "Tableau de bord étudiant MedEd : taux de réussite, réponses, grade, favoris et progression vers le grade suivant",
+      "en": "MedEd student dashboard: success rate, answers, grade, favourites and progress to the next grade"
+     }
+    }
+   ],
    "glyph": "Med+"
   },
   {
@@ -2177,8 +2185,8 @@ window.PORTFOLIO = {
     {
      "src": "assets/img/projects/hospital/cover.webp",
      "alt": {
-      "fr": "Interface MedCore Pro",
-      "en": "MedCore Pro interface"
+      "fr": "Page « À propos » de MedCore Pro : présentation de l'hôpital, chiffres clés, engagement et reconnaissances",
+      "en": "MedCore Pro About page: hospital overview, key figures, commitment and awards"
      }
     }
    ],

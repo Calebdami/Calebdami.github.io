@@ -1671,7 +1671,15 @@ window.PORTFOLIO = {
     "personal"
    ],
    "links": {},
-   "images": []
+   "images": [
+    {
+     "src": "assets/img/projects/site-ong/cover.webp",
+     "alt": {
+      "fr": "Galerie photos et vidéos du site de l'ONG ELSO, sous la barre de navigation",
+      "en": "Photo and video gallery of the ELSO NGO website, below the navigation bar"
+     }
+    }
+   ]
   },
   {
    "id": "geogenius",

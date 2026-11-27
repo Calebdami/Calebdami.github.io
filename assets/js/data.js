@@ -2009,7 +2009,15 @@ window.PORTFOLIO = {
     "training"
    ],
    "links": {},
-   "images": [],
+   "images": [
+    {
+     "src": "assets/img/projects/blog/cover.webp",
+     "alt": {
+      "fr": "Lecture d'un article du blog, avec texte mis en forme et image, en thème sombre",
+      "en": "Reading a blog article with formatted text and an image, in dark mode"
+     }
+    }
+   ],
    "glyph": "Blog"
   },
   {
